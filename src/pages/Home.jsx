@@ -2,11 +2,19 @@ import React from "react";
 import Footer from "./Footer";
 import Projects from "./Projects";
 import { NavLink } from "react-router-dom";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Home = () => {
+  const { pathname } = useLocation();
+  // Automatically scrolls to top whenever pathname changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
-      <div className="gradBG absolute top-0  h-[60%] w-full lg:h-full "></div>
+      <div className="gradBG absolute top-0 transition-all duration-300  h-[60%] w-full lg:h-full "></div>
 
       <div className=" flex flex-col items-center justify-center gap-8 w-full">
         <h1 className="text-[5rem] z-10 md:text-[7rem] lg:text-[10rem] xl:text-[12rem] flex flex-col text-white/70 font-[600] mt-40 md:mt-48 mb-8 md:mb-24 items-center">
@@ -25,7 +33,7 @@ const Home = () => {
             <h2 className="text-[2rem] md:text-[4rem] lg:mr-6 lg:text-[6rem] text-white/80 font-medium text-right">
               Projects
             </h2>
-            <div className="absolute top-24 group-hover:top-[10.5rem] md:top-40 lg:top-[12rem] left-16 md:left-32 h-full w-full rounded-3xl backdrop-blur-[50rem] bg-black/70 saturate-[3]">
+            <div className="absolute top-24 group-hover:top-[10.5rem] transition-all duration-300 md:top-40 lg:top-[12rem] left-16 md:left-32 h-full w-full rounded-3xl backdrop-blur-[50rem] bg-black/70 saturate-[3]">
               <div className="absolute top-5 left-6 bg-red-500 h-4 w-4 rounded-full"></div>
               <div className="absolute top-5 left-12 bg-yellow-500 h-4 w-4 rounded-full"></div>
               <div className="absolute top-5 left-[4.5rem] bg-green-500 h-4 w-4 rounded-full"></div>

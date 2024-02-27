@@ -50,7 +50,6 @@
 * {
   font-family: "Acorn";
   min-width: 0;
-  transition: ease-in-out 300ms;
 }
 
 ::-webkit-scrollbar {
@@ -152,4 +151,8 @@ nav a {
 .archive img:hover {
   scale: 1.03;
   transition: ease-in-out 100ms;
+}
+
+.archive {
+  transition: none;
 }

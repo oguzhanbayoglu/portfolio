@@ -31,7 +31,7 @@ const ProjectDetails = (projects) => {
             target="blank"
             className="group text-white flex aspect-square items-center justify-center relative"
           >
-            <span className="material-symbols-outlined text-[2rem] md:text-[3.5rem] lg:text-[5rem] group-hover:rotate-45  p-4 pt-5 border-neutral-50 border-2 md:border-4 rounded-full">
+            <span className="material-symbols-outlined transition-all duration-300 text-[2rem] md:text-[3.5rem] lg:text-[5rem] group-hover:rotate-45  p-4 pt-5 border-neutral-50 border-2 md:border-4 rounded-full">
               arrow_outward
             </span>
             <span className="hidden group-hover:block absolute bottom-[-3rem] text-white text-[1rem] text-wrap m-4">
@@ -47,7 +47,7 @@ const ProjectDetails = (projects) => {
           className="text-white flex items-center justify-center gap-4 text-[1.5rem] group h-16 "
           target="blank"
         >
-          <span className="material-symbols-outlined group-hover:text-[2.5rem] text-[1.5rem]">
+          <span className="material-symbols-outlined group-hover:text-[2.5rem] transition-all duration-300 text-[1.5rem]">
             terminal
           </span>
           <span className="group-hover:underline font-mono ">

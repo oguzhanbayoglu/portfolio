@@ -1,9 +1,17 @@
 import React from "react";
 import Footer from "./Footer";
 import { Typewriter } from "react-simple-typewriter";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 const About = () => {
+  const { pathname } = useLocation();
+  // Automatically scrolls to top whenever pathname changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       <div className="gradBG absolute top-0  h-[60%] lg:h-full w-full"></div>
@@ -246,7 +254,7 @@ const About = () => {
             I've taken while wandering around. You might discover a few things
             you like.
           </p>
-          <a href="/archive">
+          <NavLink to="/archive">
             <div className="flex m-auto mt-4 lg:mt-8 gap-4 lg:gap-8">
               <img
                 src="archiveList/30.jpg"
@@ -271,7 +279,7 @@ const About = () => {
                 className=" h-[15rem] md:h-[20rem] w-[20rem] md:w-[30rem] lg:w-[40rem] rounded-[2rem] object-cover"
               />
             </div>
-          </a>
+          </NavLink>
         </div>
       </div>
       <Footer />
