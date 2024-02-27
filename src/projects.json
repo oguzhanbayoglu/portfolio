@@ -101,10 +101,10 @@
       "to": "tenzies",
       "img": [
         {
-          "src": "projectImg/Tenzies1.png"
+          "src": "projectImg/tenzies1.png"
         },
         {
-          "src": "projectImg/Tenzies2.png"
+          "src": "projectImg/tenzies2.png"
         }
       ],
       "desc": "Tenzies is a simple dice game where you roll 10 dice and try to combine all of them to have the same value. It was my first React JS project that I created with the help of Scrimba Tutorials when I started getting interested in web development. I believe it's quite educational in terms of teaching fundamental JavaScript concepts and React states as a \"first project.\" You can play the game using the arrow above and explore the Github source code using the link below.",
