@@ -254,7 +254,7 @@ const About = () => {
             I've taken while wandering around. You might discover a few things
             you like.
           </p>
-          <a href="archive">
+          <NavLink activeClass="active" to="/portfolio/archive">
             <div className="flex m-auto mt-4 lg:mt-8 gap-4 lg:gap-8">
               <img
                 src="archiveList/30.jpg"
@@ -279,7 +279,7 @@ const About = () => {
                 className=" h-[15rem] md:h-[20rem] w-[20rem] md:w-[30rem] lg:w-[40rem] rounded-[2rem] object-cover"
               />
             </div>
-          </a>
+          </NavLink>
         </div>
       </div>
       <Footer />
