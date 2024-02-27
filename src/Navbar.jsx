@@ -10,7 +10,7 @@ const Navbar = () => {
         className="flex gap-4 items-center justify-center"
         end
       >
-        <img src="logo.png" alt="" className="h-6 opacity-50" />
+        <img src="logo.png" alt="" className="h-6 opacity-50 hidden md:block" />
         Home
       </NavLink>
       <NavLink activeClass="active" to="about">

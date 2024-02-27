@@ -44,7 +44,7 @@ const Home = () => {
             </div>
           </a>
           <NavLink
-            to="/about"
+            to="about"
             className="overflow-hidden p-8 bg-[rgba(119,104,255,0.73)] flex-1 h-[20rem] md:h-[30rem] lg:h-[35rem] 2xl:h-[40rem]  rounded-[2rem] lg:rounded-[4rem] 2xl:rounded-[6rem] relative"
           >
             <h2 className="text-[2rem] lg:text-[3rem] 2xl:text-[3.7rem] text-white/80 font-medium text-right">
@@ -60,7 +60,7 @@ const Home = () => {
             </div>
           </NavLink>
           <NavLink
-            to="/contact"
+            to="contact"
             className=" overflow-hidden p-8 bg-white/30 flex-1 h-[20rem] md:h-[30rem] lg:h-[35rem] 2xl:h-[40rem]  rounded-[2rem] lg:rounded-[4rem] 2xl:rounded-[6rem] relative"
           >
             <h2 className="text-[2rem] lg:text-[2.7rem] text-white/80 font-medium text-right">
@@ -84,7 +84,7 @@ const Home = () => {
             </div>
           </NavLink>
           <NavLink
-            to="/archive"
+            to="archive"
             className="xl:col-span-2 overflow-hidden p-8 bg-white/30 flex-1 h-[20rem] md:h-[30rem] lg:h-[35rem] 2xl:h-[40rem]  rounded-[2rem] lg:rounded-[4rem] 2xl:rounded-[6rem] relative"
           >
             <div className="absolute top-0 left-0 h-full w-full rounded-3xl  columns-4 p-4 gap-2 lg:gap-4 scale-110 ">
