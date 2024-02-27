@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.029284c9.css",
+    "main.js": "/portfolio/static/js/main.e8999cf0.js",
+    "static/media/Acorn-Bold.otf": "/portfolio/static/media/Acorn-Bold.2a82187cdf1b4c80bdff.otf",
+    "static/media/Acorn-SemiBold.otf": "/portfolio/static/media/Acorn-SemiBold.fd34de2154569ae74e30.otf",
+    "static/media/Acorn-Medium.otf": "/portfolio/static/media/Acorn-Medium.d6b3bf5fab9e20defd1f.otf",
+    "static/media/Acorn-Regular.otf": "/portfolio/static/media/Acorn-Regular.69a34b37799fd1f6c284.otf",
+    "static/media/Acorn-Light.otf": "/portfolio/static/media/Acorn-Light.6a330214b9f9966ce2a6.otf",
+    "static/media/Acorn-ExtraLight.otf": "/portfolio/static/media/Acorn-ExtraLight.b768e38621b0a66e450d.otf",
+    "static/media/Acorn-Thin.otf": "/portfolio/static/media/Acorn-Thin.5a04a5ac8b5f544bc954.otf",
+    "index.html": "/portfolio/index.html",
+    "main.029284c9.css.map": "/portfolio/static/css/main.029284c9.css.map",
+    "main.e8999cf0.js.map": "/portfolio/static/js/main.e8999cf0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.029284c9.css",
+    "static/js/main.e8999cf0.js"
+  ]
+}
