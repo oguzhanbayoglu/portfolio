@@ -6,19 +6,20 @@ const Navbar = () => {
     <nav className="font-mono navbar flex gap-1 lg:gap-4 fixed top-[3%] left-[50%] translate-x-[-50%] p-3 items-center justify-center rounded-full text-white z-40 text-[0.75rem] md:text-[1.1rem] lg:text-[1.5rem]">
       <NavLink
         activeClass="active"
-        to="/"
+        to=""
         className="flex gap-4 items-center justify-center"
+        end
       >
         <img src="logo.png" alt="" className="h-6 opacity-50" />
         Home
       </NavLink>
-      <NavLink activeClass="active" to="/about">
+      <NavLink activeClass="active" to="about">
         About
       </NavLink>
-      <NavLink activeClass="active" to="/archive">
+      <NavLink activeClass="active" to="archive">
         Archive
       </NavLink>
-      <NavLink activeClass="active" to="/contact">
+      <NavLink activeClass="active" to="contact">
         Contact
       </NavLink>
     </nav>
