@@ -1,13 +1,16 @@
 import React from "react";
 import Footer from "./Footer";
+import Projects from "./Projects";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
     <>
+      <div className="gradBG absolute top-0  h-[60%] w-full lg:h-full "></div>
+
       <div className=" flex flex-col items-center justify-center gap-8 w-full">
-        <h1 className="text-[5rem] md:text-[7rem] lg:text-[10rem] xl:text-[12rem] flex flex-col text-white/70 font-[600] mt-40 md:mt-48 mb-8 md:mb-24 items-center">
-          Hi. I'm Oğuz.{" "}
+        <h1 className="text-[5rem] z-10 md:text-[7rem] lg:text-[10rem] xl:text-[12rem] flex flex-col text-white/70 font-[600] mt-40 md:mt-48 mb-8 md:mb-24 items-center">
+          Hi. I'm Oğuz.
           <span className="mt-[-2rem] lg:mt-[-5rem]">A Designer.</span>
           <p className="text-[1rem] md:text-[1.5rem] font-[100] w-[70%] text-center mt-[1rem] font-mono">
             I'm passionate about crafting experiences that are engaging,
@@ -17,19 +20,19 @@ const Home = () => {
         <div className="grid xl:grid-cols-3 grid-cols-1 gap-8 md:gap-16 lg:gap-20  items-center justify-center xl:max-w-[140rem] w-full px-4 md:px-16">
           <a
             href="#projects"
-            className="p-8 scroll-smooth relative overflow-hidden bg-white/30 flex-1 h-[20rem] md:h-[30rem] lg:h-[35rem] 2xl:h-[40rem] xl:col-span-2 rounded-[2rem] lg:rounded-[4rem] 2xl:rounded-[6rem]"
+            className="group p-8 scroll-smooth relative overflow-hidden bg-white/30 flex-1 h-[20rem] md:h-[30rem] lg:h-[35rem] 2xl:h-[40rem] xl:col-span-2 rounded-[2rem] lg:rounded-[4rem] 2xl:rounded-[6rem]"
           >
             <h2 className="text-[2rem] md:text-[4rem] lg:mr-6 lg:text-[6rem] text-white/80 font-medium text-right">
               Projects
             </h2>
-            <div className="absolute top-24 md:top-40 lg:top-[12rem] left-16 md:left-32 h-full w-full rounded-3xl backdrop-blur-[50rem] saturate-[3]">
+            <div className="absolute top-24 group-hover:top-[10.5rem] md:top-40 lg:top-[12rem] left-16 md:left-32 h-full w-full rounded-3xl backdrop-blur-[50rem] bg-black/70 saturate-[3]">
               <div className="absolute top-5 left-6 bg-red-500 h-4 w-4 rounded-full"></div>
               <div className="absolute top-5 left-12 bg-yellow-500 h-4 w-4 rounded-full"></div>
               <div className="absolute top-5 left-[4.5rem] bg-green-500 h-4 w-4 rounded-full"></div>
-            </div>
-            <div className="absolute h-full top-[9.20rem] md:top-[14.20rem] lg:top-[18.20rem] left-[5rem] md:left-[10rem] lg:left-[11rem] lg:gap-10 gap-4 md:gap-8 w-full z-10 flex flex-row items-center justify-center">
-              <div className=" bg-[rgba(23,37,158,0.24)] z-20 h-full w-[50%] rounded-3xl"></div>
-              <div className=" bg-[rgba(23,37,158,0.24)] z-20 h-full w-[50%] rounded-3xl"></div>
+              <div className="absolute h-full top-[4.5rem] left-[2rem] lg:gap-10 gap-4 md:gap-8 w-full z-10 flex flex-row items-center justify-center">
+                <div className=" bg-[rgba(224,170,245,0.47)] z-20 h-full w-[50%] rounded-3xl"></div>
+                <div className=" bg-[rgba(157,104,255,0.41)] z-20 h-full w-[50%] rounded-3xl"></div>
+              </div>
             </div>
           </a>
           <NavLink
@@ -97,18 +100,14 @@ const Home = () => {
           </NavLink>
         </div>
       </div>
-      <div id="projects">
-        <h2 className="text-[3.5rem] md:text-[5.5rem] lg:text-[8rem] xl:text-[10rem] flex flex-col text-white/70 font-[600] mt-24 md:mt-32 mb-8 md:mb-24 items-center">
+      <div
+        id="projects"
+        className="w-full xl:max-w-[140rem] px-4 md:px-16 z-10"
+      >
+        <h2 className=" text-[3.5rem] md:text-[5.5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[10rem] flex flex-col text-white/80 font-[600] mt-24 md:mt-32 mb-8 md:mb-16 items-center">
           Projects
         </h2>
-        <div className="flex flex-wrap items-center justify-center gap-4 ">
-          <div className="bg-red-500 h-40 w-40 rounded-3xl"></div>
-          <div className="bg-red-500 h-40 w-40 rounded-3xl"></div>
-          <div className="bg-red-500 h-40 w-40 rounded-3xl"></div>
-          <div className="bg-red-500 h-40 w-40 rounded-3xl"></div>
-          <div className="bg-red-500 h-40 w-40 rounded-3xl"></div>
-          <div className="bg-red-500 h-40 w-40 rounded-3xl"></div>
-        </div>
+        <Projects />
       </div>
       <Footer />
     </>

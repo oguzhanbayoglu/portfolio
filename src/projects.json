@@ -1,0 +1,115 @@
+{
+  "projects": [
+    {
+      "name": "Color Palette Generator",
+      "to": "color-palette-generator",
+      "img": [
+        {
+          "src": "projectImg/cpg1.png"
+        },
+        {
+          "src": "projectImg/cpg2.png"
+        }
+      ],
+      "desc": "It's a tool developed using the React library for generating color palettes. The styling is done using Tailwind CSS. With this web application, you can extract a color palette from any image and use it in your designs. Feel free to visit the project using the arrow above. You can also check out the Github repo with the link down below.",
+      "link": "https://oguzhanbayoglu.github.io/React-ColorPicker/",
+      "repo": "https://github.com/oguzhanbayoglu/React-ColorPicker"
+    },
+    {
+      "name": "Reactube",
+      "to": "reactube",
+      "img": [
+        {
+          "src": "projectImg/rt1.png"
+        },
+        {
+          "src": "projectImg/rt2.png"
+        },
+        {
+          "src": "projectImg/rt3.png"
+        },
+        {
+          "src": "projectImg/rt4.png"
+        },
+        {
+          "src": "projectImg/rt5.png"
+        },
+        {
+          "src": "projectImg/rt6.png"
+        },
+        {
+          "src": "projectImg/rt7.png"
+        },
+        {
+          "src": "projectImg/rt8.png"
+        }
+      ],
+      "desc": "Developed with React JS, this web application offers an alternative design approach to YouTube while maintaining the same functionality. You can access YouTube videos, their comments, and recommended content based on your selected content using this web application. Feel free to visit the project using the arrow above. You can also check out the Github repo with the link down below.",
+      "link": "https://oguzhanbayoglu.github.io/reactube/",
+      "repo": "https://github.com/oguzhanbayoglu/reactube"
+    },
+    {
+      "name": "Musict",
+      "to": "musict",
+      "img": [
+        {
+          "src": "projectImg/mt1.png"
+        },
+        {
+          "src": "projectImg/mt2.png"
+        },
+        {
+          "src": "projectImg/mt3.png"
+        },
+        {
+          "src": "projectImg/mt4.png"
+        }
+      ],
+      "desc": "This web application, developed using React JS, allows you to discover new songs and listen to previews of these songs. It utilizes the Shazam Web API for this purpose. Feel free to visit the project using the arrow above. You can also check out the Github repo with the link down below.",
+      "link": "https://oguzhanbayoglu.github.io/musict/",
+      "repo": "https://github.com/oguzhanbayoglu/musict"
+    },
+    {
+      "name": "Voice News",
+      "to": "newsAI",
+      "img": [
+        {
+          "src": "projectImg/nw1.png"
+        },
+        {
+          "src": "projectImg/nw2.png"
+        }
+      ],
+      "desc": "Through this web application, you can access news and articles using voice commands. Developed with React JS, this application connects to several different news APIs. When connecting to these APIs, Alan AI's artificial intelligence service generates queries based on the voice commands you provide. These queries are then sent to the relevant API to present the news and articles you want to access. You can visit the project using the arrow above. You can also check out the Github repo with the link down below.",
+      "link": "https://oguzhanbayoglu.github.io/voice-news/",
+      "repo": "https://github.com/oguzhanbayoglu/voice-news"
+    },
+    {
+      "name": "Travel Advisor",
+      "to": "travel-advisor",
+      "img": [
+        {
+          "src": "projectImg/tva1.png"
+        }
+      ],
+      "desc": "This web application is inspired by TripAdvisor. Using this application, you can explore restaurants, hotels, and landmarks near your location or destinations you plan to visit. It is developed using the React JS library, and the styling of components is organized using the SCSS preprocessor. Feel free to visit the project using the arrow above. You can also check out the Github repo with the link down below.",
+      "link": "https://oguzhanbayoglu.github.io/Travel-Advisor-App/",
+      "repo": "https://github.com/oguzhanbayoglu/Travel-Advisor-App"
+    },
+    {
+      "name": "Tenzies",
+      "to": "tenzies",
+      "img": [
+        {
+          "src": "projectImg/Tenzies1.png"
+        },
+        {
+          "src": "projectImg/Tenzies2.png"
+        }
+      ],
+      "desc": "Tenzies is a simple dice game where you roll 10 dice and try to combine all of them to have the same value. It was my first React JS project that I created with the help of Scrimba Tutorials when I started getting interested in web development. I believe it's quite educational in terms of teaching fundamental JavaScript concepts and React states as a \"first project.\" You can play the game using the arrow above and explore the Github source code using the link below.",
+      "link": "https://oguzhanbayoglu.github.io/tenzies-game/",
+      "repo": "https://github.com/oguzhanbayoglu/tenzies-game"
+    }
+  ]
+}

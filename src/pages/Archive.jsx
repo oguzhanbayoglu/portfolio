@@ -1,10 +1,11 @@
 import archiveList from "../archiveList.json";
+import Footer from "./Footer";
 
 const Archive = () => {
   console.log(archiveList);
   return (
     <div className="p-4 bg-black">
-      <div className="archive mt-40 columns-1 md:columns-3 xl:columns-5 2xl:columns-7 gap-8 ">
+      <div className="archive mt-36 columns-1 md:columns-3 xl:columns-5  gap-8 ">
         {archiveList.images.map((img, i) => (
           <img
             src={img.source}
@@ -15,10 +16,7 @@ const Archive = () => {
           />
         ))}
       </div>
-      <footer className="flex gap-4 items-center justify-center mb-16 mt-40 w-full">
-        <img src="logo.png" alt="logo" className="h-4" />{" "}
-        <p className="pt-1 font-mono text-white">Oguzhan Bayoglu - 2024</p>{" "}
-      </footer>
+      <Footer />
     </div>
   );
 };
