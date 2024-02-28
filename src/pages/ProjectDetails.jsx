@@ -41,7 +41,7 @@ const ProjectDetails = (projects) => {
             <span className="material-symbols-outlined transition-all duration-300 text-[2rem] md:text-[3.5rem] lg:text-[5rem] group-hover:rotate-45  p-4 pt-5 border-neutral-50 border-2 md:border-4 rounded-full">
               arrow_outward
             </span>
-            <span className="hidden group-hover:block absolute bottom-[-3rem] text-white text-[1rem] text-wrap m-4">
+            <span className="hidden lg:group-hover:block absolute bottom-[-3rem] text-white text-[1rem] text-wrap m-4">
               Visit Project
             </span>
           </a>
