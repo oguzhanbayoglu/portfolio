@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 xl:text-[1.5rem] xl:grid-cols-2 gap-4 text-white/60">
           <a
             target="blank"
-            href="Oguzhan-Bayoglu-CV.pdf"
+            href="Oguzhan_Bayoglu_CV_ENG-TR.pdf"
             download
             className="font-mono"
           >
