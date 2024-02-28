@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="font-mono navbar flex gap-1 lg:gap-4 fixed top-[3%] left-[50%] translate-x-[-50%] p-3 items-center justify-center rounded-full text-white z-40 text-[0.75rem] md:text-[1.1rem] lg:text-[1.5rem]">
       <NavLink
         activeClass="active"
-        to=""
+        to="/portfolio/"
         className="flex gap-4 items-center justify-center"
         end
       >
