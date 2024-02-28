@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Footer from "./Footer";
+import { useLocation } from "react-router-dom";
 
 const ProjectDetails = (projects) => {
   const [details, setDetails] = useState([]);
   const { project } = useParams();
   const prjs = Object.entries(projects.projects);
+
+  const { pathname } = useLocation();
+  // Automatically scrolls to top whenever pathname changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   useEffect(() => {
     for (let i = 0; i < prjs.length; i++) {
