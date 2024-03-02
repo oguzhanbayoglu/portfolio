@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8dd97fb6.css",
+    "main.css": "/portfolio/static/css/main.378ed8fb.css",
     "main.js": "/portfolio/static/js/main.8100dd2a.js",
     "static/media/Acorn-Bold.otf": "/portfolio/static/media/Acorn-Bold.2a82187cdf1b4c80bdff.otf",
     "static/media/Acorn-SemiBold.otf": "/portfolio/static/media/Acorn-SemiBold.fd34de2154569ae74e30.otf",
@@ -10,11 +10,11 @@
     "static/media/Acorn-ExtraLight.otf": "/portfolio/static/media/Acorn-ExtraLight.b768e38621b0a66e450d.otf",
     "static/media/Acorn-Thin.otf": "/portfolio/static/media/Acorn-Thin.5a04a5ac8b5f544bc954.otf",
     "index.html": "/portfolio/index.html",
-    "main.8dd97fb6.css.map": "/portfolio/static/css/main.8dd97fb6.css.map",
+    "main.378ed8fb.css.map": "/portfolio/static/css/main.378ed8fb.css.map",
     "main.8100dd2a.js.map": "/portfolio/static/js/main.8100dd2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dd97fb6.css",
+    "static/css/main.378ed8fb.css",
     "static/js/main.8100dd2a.js"
   ]
 }
