@@ -62,9 +62,9 @@ const About = () => {
               working remotely from İzmir, Türkiye.
             </h2>
             <p className="text-white/70 text-[1.2rem]  flex flex-col gap-4 md:gap-8 font-mono">
-              I stuied architecture. Throughout my education, driven by my
+              I studied architecture. Throughout my education, driven by my
               interest in technology and design, I endeavored to improve myself
-              graphic design and web development. I have participated in
+              in graphic design and web development. I have participated in
               numerous freelance projects in these areas both individually and
               as part of different teams.
               <span className="font-mono">
