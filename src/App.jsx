@@ -11,7 +11,7 @@ import projects from "./projects.json";
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes>
+      <Routes basename="/portfolio">
         <Route path="portfolio" element={<Layout />}>
           <Route index path="" element={<Home />} />
           <Route path="about" element={<About />} />
